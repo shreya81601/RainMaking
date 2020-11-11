@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Rainmaking by Lakota</title>
+	<!-- linking all the style sheets -->
+	<link rel="stylesheet" type="text/css" href="styles2.css">
+	<link rel="stylesheet" type="text/css" href="common_styles.css">
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+	<!-- loading the icon library -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- loading the google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Charmonman:wght@700&family=Katibeh&family=Kotta+One&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Arima+Madurai&family=Cinzel+Decorative:wght@700&family=Forum&family=Fredericka+the+Great&family=Grenze+Gotisch&family=Lancelot&family=Lobster+Two&family=Macondo+Swash+Caps&family=Mirza&family=Monoton&family=Overlock&family=Rye&family=Sancreek&family=Uncial+Antiqua&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Overlock&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+	<!-- the navigation bar -->
+
+	<div id="mySidenav" class="sidenav">
+	 	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	 	<br><br><br>
+	 	<a href="index.html">Home</a>
+	 	<a href="Lakota.html" class="active">US - Lakota Tribe</a>
+	 	<a href="dongria.html">India - Dongria People</a>
+	 	<a href="aborgins.html">Australia - Aborgins</a>
+	 	<a href="own.html">Make your own rain</a>
+	 	<a href="#footer">Contact Us</a>
+	</div>
+
+	<!-- To open the navbar -->
+	<span id="nav_button" onclick="openNav()">&#9776; </span>
+
+	<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+	<div id="main">
+
+	<!-- landing page -->
+	<section class="landing_page">
+		<div class="bgimg_lakota border2">
+			<!-- <img src="Images/landing_bg.jpg" alt="leaves" style="width:100%;"> -->
+			<div class="intro">
+		    	<center><h1>Lakota Tribe</h1>
+		    	<p>Below is the audio recording of an instance when the Lakota Tribe performs their ritual of rain-dancing. They sing and dance enthusiastically and soon experience the rain pouring down on their lands.</p>
+		    	</center>
+
+				<div class="ButtonClass">		    
+				
+					<p>Press play to hear how they connected with nature:</p>
+					<button class="btn" id="playBtn"><i class="fa fa-play-circle"></i></button>
+					<button class="btn" id="pauseBtn"><i class="fa fa-pause-circle"></i></button>
+					<button class="btn" id="stopBtn"><i class="fa fa-stop-circle"></i></button>
+				</div>
+
+				   <audio id="player">
+				      <source  src="songs/Lakota.mp3" type="audio/mpeg">
+				        This browser does not support audio.
+				      </audio>
+
+				<div class="slidecontainer"> 
+
+					<p>Volume:</p>
+						  <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+						
+						<p id="audioInfo"></p>	
+				</div>
+		    	
+		  	</div>
+
+
+		<div class="arrow1"><i class="fa fa-angle-down" aria-hidden="true"></i></div>
+		<!-- <div class="arrow2"><i class="fa fa-angle-down" aria-hidden="true"></i></div> -->
+		<!-- <div class="arrow1"><i class="fa fa-caret-down"></i></i></div> -->
+
+		</div>
+	</section>
+
+	<!-- About Tribe Section -->
+	<section>
+	<div class="about_tribe">
+		<div class="column1">
+			<br>
+			<img class="border" src="Images/lok3.jpg" style="width:100%;" alt="tribe pic">
+			<br><br>
+			<img class="border" src="Images/lok2.jpg" style="width:100%;" alt="tribe pic">
+			<br><br><br>
+			<h1>The Rain Calling Ritual</h1>
+			<p>Among rituals of Lakota and other Native Americans are weather modification rituals such as rain dances, performed by both the men and women of the tribe.</p>
+			<p>The droughts could bring serious problems for the natives since having some rain was essential for their survival and their food crops. The rain dance would usually take place in the driest month of the year, so usually this ritual was performed in mid to late August every year.</p>
+			<p>These Native Americans wore special costumes when performing the rain dance ceremony, and these costumes were used just for this specific ceremony every year.</p>
+		</div>
+		<div class="column2">
+			<h1>About The Tribe</h1>
+			<p>The Lakota tribe or the people of Standing Rock are one of the first original Native American tribes who inhabited the North Americas before the arrival of Europeans.</p>
+			<p>Often referred to as the Great Sioux Nation, these people can be divided into three distinct groups based on language and geography. These groups are Dakota, Lakota, and Nakota. “Dakota” and “Lakota” means “friends” or “allies”.</p>
+			<p>By the end of the 16th century, these tribes were living in the upper Mississippi River region (present-day Wisconsin, Minnesota, Iowa, and the Dakotas).</p>
+			<br><br>
+			<img class="border" src="Images/lok4.jpg" style="width:100%;" alt="tribe pic">
+			<br><br>
+			<img class="border" src="Images/lok1.jpg" style="width:100%;" alt="tribe pic">
+		</div>
+	</div>
+	</section>
+
+	</div> <!-- close div for main section -->
+
+	<!-- footer -->
+	<footer id="footer" class="border3">
+		<div class="info">
+			<div class="BB">
+				<h4>The Magic of Rainmaking</h4>
+				<p>A website which brings to you tribes from different parts<br>of the world engaging in rain-calling rituals.</p>
+				<p>We aim for you to reconnect with<br>nature and cherish the sacred bond that civilization<br>once used to share.</p>
+			</div>
+			<div class="contact"> 
+				<h4> Contact Us </h4>
+				<!-- <p> -->
+				<i class="fa fa-phone size"></i> 123-456-789<br>
+				<a href="mailto:shreya81601@gmail.com" title="Email Now"><i class="fa fa-envelope-open-o"></i> rain.making@gmail.com</a><br>
+				<span><br><i class="fa fa-fw fa-address-card"></i> New York University Abu Dhabi<br>Saadiyat Island, Abu Dhabi, United Arab Emirates<br>PO Box 129188</span>
+			<!-- </p> -->
+			</div>
+			<div class="social">
+				<a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook" title="Facebook"></a><br><br>
+				<a href="https://twitter.com/?lang=en" target="_blank" class="fa fa-twitter" title="Twitter"></a><br><br>
+				<a href="https://www.instagram.com/?hl=en" target="_blank" class="fa fa-instagram" title="Instagram"></a><br><br>
+				<a href="https://in.linkedin.com/" target="_blank" class="fa fa-linkedin" title="LinkedIn"></a><br><br>
+				<a href="https://www.pinterest.com/" target="_blank" class="fa fa-pinterest" title="Pinterest"></a>
+			</div>
+		</div>
+		<div class="copyright">
+			Developed by Aisha Hodzic and Shreya Goel<br>
+			&copy; 2020 All rights reserved | RainMaking.com 
+		</div>
+	</footer>
+
+	<script src="script.js" type="text/javascript"></script>
+
+</body>
+</html>

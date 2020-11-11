@@ -1,0 +1,169 @@
+/*=========================================================================================*/
+/*BACKGROUND*/
+
+.landing_page .intro h1 {
+  margin-top: 5px;
+  font-size: 2em;
+  font-family: 'Cinzel Decorative', cursive; /*nice for song headings*/
+  /*font-family: 'Lobster Two', cursive;*/ 
+ /* font-family: 'Uncial Antiqua', cursive;*/
+}
+
+.landing_page .bgimg_lakota {
+  background-image: url("Images/lakota.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: auto;
+  margin: 0 auto; 
+  height: 100vh;
+}
+
+.landing_page .bgimg_dongria {
+  background-image: url("Images/dongria.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: auto;
+  margin: 0 auto; 
+  height: 100vh;
+}
+
+.landing_page .bgimg_aborgins {
+  background-image: url("Images/donfria3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: auto;
+  margin: 0 auto; 
+  height: 100vh;
+}
+
+.landing_page .container_bgimg_own {
+  background-image: url("Images/own1.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: auto;
+  margin: 0 auto; 
+  height: 100vh;
+}
+
+
+/*=================================================================================*/
+/*Buttons & Slider*/
+.ButtonClass{
+  
+  position: relative;
+  text-align: center;
+  font-size: 18px;
+  color: darkgrey;
+}
+
+.btn {
+  background-color:grey;
+  border: none;
+  color: white;
+  padding: 4px 8px; 
+  font-size: 25px; 
+  cursor: pointer; 
+  border-radius: 50px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: #74B72E;
+} 
+
+.slidecontainer{
+  position: relative;
+  text-align: center;
+  font-size:16px;
+  width: 100%;
+  color: darkgrey;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 30%;
+  height: 15px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  border-radius: 25px;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background: #74B72E;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.slider::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  background: #74B72E;
+  cursor: pointer;
+}
+
+
+/*=========================================================================================*/
+/*ABOUT TRIBES SECTION*/
+
+.arrow1 {
+  /*margin-right: 20%;*/
+  top: 87%;
+  left:50%;
+  transform: translateX(-50%);
+  position:absolute;
+  color: darkgrey; 
+  font-size: 50px; 
+  /*cursor: pointer; 
+  border-radius:25px;*/
+}
+
+/*.arrow2 {
+  top: 88.5%;
+  left:50%;
+  transform: translateX(-50%);
+  position:absolute;
+  color: darkgrey; 
+  font-size: 45px; 
+}*/
+
+
+/*=========================================================================================*/
+/*ABOUT TRIBES SECTION*/
+
+.about_tribe {
+  height: auto;
+  width: 100%;
+  display: flex;
+  font-size: 18px;
+}
+
+.about_tribe .column1 {
+  flex: 1;
+  padding: 3% 3% 5% 10%;
+  text-align: right;
+  /*border: 1px solid black;*/
+  /*background-color: yellow;*/
+}
+
+.about_tribe .column2 {
+  flex: 1;
+  /*padding: 30px 50px;*/
+  padding: 3% 10% 3% 5%;
+  /*border: 1px solid black;*/
+  /*background-color: yellow;*/
+}
