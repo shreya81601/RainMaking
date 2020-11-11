@@ -8,9 +8,10 @@ body
 }
 
 .body-btn{
-  margin-right: 20%;
+  display: block;
+  width: 50px;
   top:90%;
-  left:95%;
+  right:5%;
   position:absolute;
   background-color:grey;
   border: none;
@@ -19,7 +20,6 @@ body
   font-size: 25px; 
   cursor: pointer; 
   border-radius:25px;
- 
 }
 
 .body-btn:hover {
@@ -56,6 +56,7 @@ body
   min-width: 700px;
   min-height: 350px;
   padding: 50px; 
+  overflow: auto;
 }
 
 
