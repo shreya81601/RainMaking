@@ -123,10 +123,4 @@ for (var i = 0; i < sounds.length; i++) {
 
 
 
-
-
-
-
-
-
 }
