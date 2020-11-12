@@ -7,6 +7,11 @@ body
   scroll-behavior: smooth;
 }
 
+button {
+  border: none;
+  outline: none;
+}
+
 .body-btn{
   display: block;
   width: 50px;
@@ -23,7 +28,7 @@ body
 }
 
 .body-btn:hover {
-  background-color: #74B72E;
+  background-color: olive;
 } 
 
 .border {
@@ -88,6 +93,7 @@ body
   overflow-x: hidden; /* Disable horizontal scroll */
   /*padding-top: 60px;*/ /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  overflow: hidden;
 }
 
 /* The navigation menu links */

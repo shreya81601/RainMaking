@@ -39,17 +39,6 @@
   height: 100vh;
 }
 
-.landing_page .container_bgimg_own {
-  background-image: url("Images/own1.gif");
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  overflow: auto;
-  margin: 0 auto; 
-  height: 100vh;
-}
-
-
 /*=================================================================================*/
 /*Buttons & Slider*/
 .ButtonClass{
