@@ -16,9 +16,9 @@
   transform: translate(-50%,-50%);
   background: rgba(0, 0, 0, 0.5); 
   color: #f1f1f1; /*text color*/
-  font-size: 15pt;
+  font-size: 14pt;
   width: 60%; 
-  height: 60%;
+  height: 65%;
   min-width: 700px;
   min-height: 350px;
   padding: 40px; 
