@@ -66,49 +66,49 @@ for (var i = 0; i < sounds.length; i++) {
               { 
                 timeout = setTimeout(function() {
                 btn.innerHTML = "Rub hands";
-                }, 4000);
+                }, 10000);
               }
             else if (btn.innerHTML=="Heavy Rain Drops")
               { 
                 timeout = setTimeout(function() {
                 btn.innerHTML = "Drop rice on metal";
-                }, 4000);
+                }, 10000);
               }
             else if (btn.innerHTML=="Thunder")
               { 
                 timeout = setTimeout(function() {
                 btn.innerHTML = "Real thunder!";
-                }, 4000);
+                }, 10000);
               }
             else if (btn.innerHTML=="Rain in Distance")
               { 
                 timeout = setTimeout(function() {
                 btn.innerHTML = "Computer fan";
-                }, 4000);
+                }, 10000);
               }
             else if (btn.innerHTML=="Light Wind Noise")
               { 
                 timeout = setTimeout(function() {
                 btn.innerHTML = "Whistle";
-                }, 4000);
+                }, 10000);
               }
             else if (btn.innerHTML=="Strong Wind")
               { 
                 timeout = setTimeout(function() {
                 btn.innerHTML = "Blow into mic";
-                }, 4000);
+                }, 10000);
               }
             else if (btn.innerHTML=="Rain Murmur")
               { 
                 timeout = setTimeout(function() {
                 btn.innerHTML = "Shake rice";
-                }, 4000);
+                }, 10000);
               }
             else if (btn.innerHTML=="Rain creek")
               { 
                 timeout = setTimeout(function() {
                 btn.innerHTML = "Pour water";
-                }, 4000);
+                }, 10000);
               }
     } else {
       Rain_player.pause();
@@ -120,12 +120,6 @@ for (var i = 0; i < sounds.length; i++) {
   //   if (btn.value=="Medium Rain") elem.value = "Hands rubbing";
     
   // }
-
-
-
-
-
-
 
 
 
