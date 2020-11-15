@@ -35,6 +35,7 @@
   font-size: 10pt;
   padding: 10px;
   border-radius: 10pt;
+  cursor: pointer;
 }
 
 #button:hover {
