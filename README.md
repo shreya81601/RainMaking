@@ -4,6 +4,9 @@ A website which brings to you tribes from different parts of the world engaging 
 <b>PROJECT NAME</b><br>
 The Magic of Rainmaking
 
+<b>LINK TO PROJECT</b>
+https://shreya81601.github.io/rainmaking.github.io/
+
 <b>PROJECT DESCRIPTION</b>
 <p>Throughout history, many tribes and sects across the globe have shared a very deep bond with mother Earth and would sense it as a living being. They could feel and connect with nature like no one else. One such practice involved rituals of rainmaking in which tribes established a bond with nature and invoked rain through their earnest and beautiful singing. Nowadays, we are losing this bond and treating our planet rather harshly. Thus, <i>The Magic of Rainmaking</i> is a website which presents a soundscape of a few tribes from different parts of the world engaging in rain-calling rituals. Through this site, we aim for the users to reconnect with nature and remind themselves of the beautiful bond that they can share with nature.</p>
 <p>We wanted to keep our site a simple one, with not a lot of elements on the pages, so that it is easy to navigate and the user can primarly focus on listening to the rain-invoking tribal songs and get inspired by that. Hence, the home page just containins a box with a little description about are project and its aim, and then the user can browse to other pages through the navigation menu. We also wanted the user to feel as close to nature as possible and conect with the tribes while navigating the site, hence we chose backgrounds which pictures forests, leaves, farmlands, village houses etc. and some of them being gifs to give a more realistic experience. The background sound of chirping birds on homepage was also an attempt to make user feel as if they are already in a soundscape which has taken them on journey through the wonders of nature.</p>
