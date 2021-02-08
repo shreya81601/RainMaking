@@ -4,7 +4,7 @@ A website which brings to you tribes from different parts of the world engaging 
 <b>PROJECT NAME</b><br>
 The Magic of Rainmaking
 
-<b>LINK TO PROJECT</b>
+<b>LINK TO PROJECT</b><br>
 https://shreya81601.github.io/rainmaking.github.io/
 
 <b>PROJECT DESCRIPTION</b>
